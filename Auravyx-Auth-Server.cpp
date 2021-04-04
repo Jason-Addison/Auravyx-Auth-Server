@@ -152,7 +152,7 @@ void getConsoleInput()
                     accountString += '\n';
                 }
                 writeToFile("./accounts.txt", accountString);
-                
+                //
                 std::cout << "[Auravyx] : Saved accounts to disk." << "\n";
             }
         }
